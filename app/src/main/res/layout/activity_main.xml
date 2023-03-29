@@ -42,7 +42,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:hint="@string/alas"
-                    android:id="@+id/alas_inp" />
+                    android:inputType = "number"
+                    android:id="@+id/alasInp" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -60,7 +61,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:hint="@string/tinggi"
-                    android:id="@+id/tinggi_inp" />
+                    android:inputType="number"
+                    android:id="@+id/tinggiInp" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
@@ -74,7 +76,7 @@
                 android:layout_marginTop="16dp" />
 
         <TextView
-                tools:text="Luas : 120 cm"
+                android:text="@string/luas"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/luasTextView"
